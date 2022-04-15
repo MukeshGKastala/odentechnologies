@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  odentechnologiesmetrics:
+    build: .
+    image: odentechnologiesmetrics
+    container_name: oden_technologies_metrics
+    ports:
+      - "8080:8080"
