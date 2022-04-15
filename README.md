@@ -27,12 +27,12 @@ make test
 ## Q&A
 **Q:** How should we run your solution?
 
-**A:** See the `Run` section above
+**A:** See the `Run` section above.
 ##
 **Q:** How long did you spend on the take home? What would you add to your solution if you
 had more time and expected it to be used in a production setting?
 
-**A:** ~10 hours because I was looking through the Prometheus Go client library for inspiration. See the `TODOs` section above
+**A:** ~10 hours because I was looking through the Prometheus Go client library for inspiration. See the `TODOs` section above.
 ##
 **Q:** If you used any libraries not in the language’s standard library, why did you use them?
 
