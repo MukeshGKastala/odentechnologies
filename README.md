@@ -24,21 +24,3 @@ docker-compose up
 ```
 make test
 ```
-## Q&A
-**Q:** How should we run your solution?
-
-**A:** See the `Run` section above.
-##
-**Q:** How long did you spend on the take home? What would you add to your solution if you
-had more time and expected it to be used in a production setting?
-
-**A:** ~10 hours because I was looking through the Prometheus Go client library for inspiration. See the `TODOs` section above.
-##
-**Q:** If you used any libraries not in the language’s standard library, why did you use them?
-
-**A:** I used github.com/gorilla/mux and github.com/stretchr/testify. I used the HTTP router and URL matcher to get automatic `404 page not found` error handling - I could've used `net/http` instead but didn't realize until writing this answer. And I used `testify` as a force of habit.
-##
-**Q:** If you have any feedback, feel free to share your thoughts!
-
-**A:** Awesome challenge!
-##
