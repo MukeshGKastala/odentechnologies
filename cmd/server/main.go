@@ -47,7 +47,7 @@ func main() {
 
 	srv := &http.Server{
 		Addr:    addr,
-		Handler: server.MakeHTTPHandler(metric.DefaultGatherer),
+		Handler: server.MakeHTTPHandler(),
 	}
 
 	signalCh := make(chan os.Signal, 1)
