@@ -56,7 +56,7 @@ func main() {
 	signal.Notify(signalCh, os.Interrupt, syscall.SIGTERM)
 
 	go func() {
-		log.Printf("http server running on port %s pooper scooper scooper", port)
+		log.Printf("http server running on port %s", port)
 		if err := srv.ListenAndServe(); err != nil && err != http.ErrServerClosed {
 			log.Fatalf("server exited: %s", err)
 		}
